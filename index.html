@@ -12,12 +12,40 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
+    <!-- ICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
     <!-- STYLE CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
-    <h1 class="text-3xl font-bold underline">Hello Rents!</h1>
+<body class="bg-[#FAFAFA]">
+    <header class="container mx-auto px-5 py-3 flex lg:px-10 lg:py-5 justify-between items-center">
+        <div>
+            <img src="assets/img/logo.png" alt="Rentind Academy">
+        </div>
+        <div class="hidden lg:block bg-white px-3 py-2 rounded-md">
+            <select name="" id="" class="outline-none mr-5 font-medium">
+                <option value="">All Categories</option>
+            </select>
+            <input type="text" placeholder="Try typing “spinach”" class="outline-none border-l-2 border-[#E6E6E6] pl-3">
+            <i class='bx bx-search'></i>
+        </div>
+        <nav>
+            <div class="hidden md:block">
+                <ul class="flex gap-x-8">
+                    <li><a href="#">Explore</a></li>
+                    <li><a href="#">Rents</a></li>
+                    <li><a href="#">Sales</a></li>
+                    <li><a href="#">How it work</a></li>
+                    <li><a href="#" class="bg-gray-200 px-5 py-2 rounded-full">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="hover:cursor-pointer md:hidden">
+                <i class='bx bx-menu text-lg'></i>
+            </div>
+        </nav>
+    </header>
 </body>
 
 </html>
