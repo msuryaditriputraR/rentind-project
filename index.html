@@ -20,7 +20,7 @@
 </head>
 
 <body class="bg-[#FAFAFA]">
-    <header class="container mx-auto px-5 py-3 flex lg:px-10 lg:py-5 justify-between items-center">
+    <header class="container w-full mx-auto px-5 py-3 flex lg:px-10 lg:py-5 justify-between items-center fixed">
         <div>
             <img src="assets/img/logo.png" alt="Rentind Academy">
         </div>
@@ -32,8 +32,9 @@
             <i class='bx bx-search'></i>
         </div>
         <nav>
-            <div class="hidden md:block">
-                <ul class="flex gap-x-8">
+            <div class="absolute top-[-1000%] left-[50%] translate-x-[-50%] text-center shadow-md w-4/5 p-5 rounded-2xl transition duration-300 ease-in-out md:static md:text-left md:shadow-none md:w-fit md:p-0 md:translate-x-0"
+                id="nav-menu">
+                <ul class="flex gap-x-8 flex-col gap-y-4 md:flex-row">
                     <li><a href="#">Explore</a></li>
                     <li><a href="#">Rents</a></li>
                     <li><a href="#">Sales</a></li>
@@ -41,11 +42,15 @@
                     <li><a href="#" class="bg-gray-200 px-5 py-2 rounded-full">Contact Us</a></li>
                 </ul>
             </div>
-            <div class="hover:cursor-pointer md:hidden">
+            <div class="hover:cursor-pointer md:hidden" id="nav-toggle">
                 <i class='bx bx-menu text-lg'></i>
             </div>
         </nav>
     </header>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
