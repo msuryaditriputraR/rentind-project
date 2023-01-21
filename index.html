@@ -19,8 +19,9 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body class="bg-[#FAFAFA]">
-    <header class="container w-full mx-auto px-5 py-3 flex lg:px-10 lg:py-5 justify-between items-center fixed">
+<body class="bg-[#FAFAFA] text-black-mamba">
+    <header
+        class="container w-full mx-auto px-5 py-3 flex lg:px-10 lg:py-5 justify-between items-center fixed top-0 z-50">
         <div>
             <img src="assets/img/logo.png" alt="Rentind Academy">
         </div>
@@ -32,7 +33,7 @@
             <i class='bx bx-search'></i>
         </div>
         <nav>
-            <div class="absolute top-[-1000%] left-[50%] translate-x-[-50%] text-center shadow-md w-4/5 p-5 rounded-2xl transition duration-300 ease-in-out md:static md:text-left md:shadow-none md:w-fit md:p-0 md:translate-x-0"
+            <div class="absolute top-[-1000%] left-[50%] translate-x-[-50%] text-center shadow-md w-4/5 p-5 rounded-2xl transition duration-300 ease-in-out md:static md:text-left md:shadow-none md:w-fit md:p-0 md:translate-x-0 z-50 bg-white"
                 id="nav-menu">
                 <ul class="flex gap-x-8 flex-col gap-y-4 md:flex-row">
                     <li><a href="#">Explore</a></li>
@@ -47,6 +48,57 @@
             </div>
         </nav>
     </header>
+
+    <main class="mt-12 lg:mt-16">
+        <section class="px-5 lg:h-[90vh]">
+            <div class="w-full relative lg:flex items-center lg:h-[100%] justify-center gap-x-40">
+                <div class="lg:relative">
+                    <img src="assets/img/explore.png" alt=""
+                        class="w-full sm:max-h-96 lg:w-auto rounded-tl-2xl rounded-tr-2xl md:rounded-2xl">
+                    <div
+                        class="hidden lg:flex lg:items-center gap-x-3 bg-white absolute top-8 left-[-10%] px-4 py-2 rounded-md shadow-sm">
+                        <span class="bg-gray-200 px-2 py-1 rounded-md">
+                            <i class='bx bxs-check-shield text-lg'></i>
+                        </span>
+                        <p class="font-semibold">Trusted Platform</p>
+                    </div>
+                    <div
+                        class="hidden lg:block lg:text-center bg-white absolute bottom-8 right-[-15%] px-4 py-2 rounded-md shadow-sm">
+                        <span class="inline-block mx-auto bg-gray-200 p-2 rounded-full">
+                            <img src="assets/img/filled.svg" alt="">
+                        </span>
+                        <p class="font-semibold text-lg">22.000+</p>
+                        <p>Happy Client</p>
+
+                    </div>
+                </div>
+                <div
+                    class="absolute inset-0 flex items-center justify-center lg:items-start flex-col text-white gap-y-6 lg:static lg:text-black-mamba">
+                    <h1 class="font-bold text-center text-3xl lg:text-left lg:text-5xl lg:leading-[1.35]">Let's find
+                        your
+                        <br>
+                        comfortable
+                        and <br>
+                        safe place to
+                        live
+                    </h1>
+                    <p class="hidden lg:block lg:leading-[1.65]">Lorem Ipsum is simply dummy text of the printing and
+                        <br> typesetting
+                        industry. Lorem
+                        Ipsum has been
+                        the industry's <br> standard dummy text ever since the 1500s.</p>
+                    <div class="flex flex-col lg:flex-row lg:items-center lg:gap-x-6">
+                        <a href="#"
+                            class="bg-white text-black-mamba lg:bg-black-mamba lg:text-white px-5 py-2 rounded-md font-bold">Explore
+                            Now</a>
+                        <a href="#" class="group">Learn
+                            More <i
+                                class='bx bx-right-arrow-alt text-lg align-middle transition duration-300 ease-in-out group-hover:translate-x-[5px] '></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
 
     <!-- JAVASCRIPT -->

@@ -5,5 +5,5 @@ const navToggle = document.getElementById("nav-toggle"),
 
 navToggle.addEventListener("click", () => {
     navMenu.classList.toggle("top-[-1000%]");
-    navMenu.classList.toggle("top-10");
+    navMenu.classList.toggle("top-14");
 });
