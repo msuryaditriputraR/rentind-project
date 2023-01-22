@@ -21,7 +21,7 @@
 
 <body class="bg-[#FAFAFA] text-black-mamba">
     <header
-        class="container w-full mx-auto px-5 py-3 flex lg:px-10 lg:py-5 justify-between items-center fixed top-0 z-50">
+        class="container bg-white mx-auto px-5 py-3 flex lg:px-10 lg:py-5 justify-between items-center fixed top-0 z-50">
         <div>
             <img src="assets/img/logo.png" alt="Rentind Academy">
         </div>
@@ -33,7 +33,7 @@
             <i class='bx bx-search'></i>
         </div>
         <nav>
-            <div class="absolute top-[-1000%] left-[50%] translate-x-[-50%] text-center shadow-md w-4/5 p-5 rounded-2xl transition duration-300 ease-in-out md:static md:text-left md:shadow-none md:w-fit md:p-0 md:translate-x-0 z-50 bg-white"
+            <div class="fixed top-[-1000%] transition-all  left-[50%] translate-x-[-50%] text-center shadow-md w-4/5 p-5 rounded-2xl md:static md:text-left md:shadow-none md:w-fit md:p-0 md:translate-x-0 z-50 bg-white"
                 id="nav-menu">
                 <ul class="flex gap-x-8 flex-col gap-y-4 md:flex-row">
                     <li><a href="#">Explore</a></li>
@@ -49,8 +49,8 @@
         </nav>
     </header>
 
-    <main class="mt-12 lg:mt-16">
-        <section class="px-5 lg:h-[90vh]">
+    <main class="mt-12 lg:mt-16 h-[200vh]">
+        <section class="container p-5 lg:h-[90vh]">
             <div class="w-full relative lg:flex items-center lg:h-[100%] justify-center gap-x-40">
                 <div class="lg:relative">
                     <img src="assets/img/explore.png" alt=""
@@ -87,13 +87,13 @@
                         industry. Lorem
                         Ipsum has been
                         the industry's <br> standard dummy text ever since the 1500s.</p>
-                    <div class="flex flex-col lg:flex-row lg:items-center lg:gap-x-6">
+                    <div class="flex flex-col lg:flex-row items-center gap-6">
                         <a href="#"
-                            class="bg-white text-black-mamba lg:bg-black-mamba lg:text-white px-5 py-2 rounded-md font-bold">Explore
+                            class="bg-white text-black-mamba lg:bg-black-mamba lg:text-white px-5 py-2 rounded-md font-bold shadow-sm">Explore
                             Now</a>
                         <a href="#" class="group">Learn
                             More <i
-                                class='bx bx-right-arrow-alt text-lg align-middle transition duration-300 ease-in-out group-hover:translate-x-[5px] '></i></a>
+                                class='bx bx-right-arrow-alt text-lg align-middle transition group-hover:translate-x-[5px] '></i></a>
                     </div>
                 </div>
             </div>
