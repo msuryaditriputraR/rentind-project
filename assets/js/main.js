@@ -8,3 +8,10 @@ navToggle.addEventListener("click", () => {
 });
 
 // ADD SHADOW TO HEADER WHEN SCROLLING
+const header = document.getElementById("header");
+
+window.addEventListener("scroll", function () {
+    const scrollY = this.scrollY;
+
+    header.classList[scrollY > 20 ? "add" : "remove"]("shadow-sm");
+});
