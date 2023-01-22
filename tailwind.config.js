@@ -11,6 +11,7 @@ module.exports = {
         colors: {
             ...colors,
             "black-mamba": "#151515",
+            "grey-blind": "#FAFAFA",
         },
     },
     plugins: [],
