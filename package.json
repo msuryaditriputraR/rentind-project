@@ -2,9 +2,10 @@
   "name": "project",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "watch": "npx tailwindcss -i ./assets/tailwind/main.css -o ./assets/css/style.css --watch"
+    "watch": "npx tailwindcss -i ./assets/tailwind/main.css -o ./assets/css/style.css --watch",
+    "start": "npx live-server ."
   },
   "keywords": [],
   "author": "",
