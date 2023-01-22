@@ -570,6 +570,10 @@ video {
   top: 0px;
 }
 
+.right-2 {
+  right: 0.5rem;
+}
+
 .top-\[-1000\%\] {
   top: -1000%;
 }
@@ -594,22 +598,6 @@ video {
   right: -15%;
 }
 
-.top-14 {
-  top: 3.5rem;
-}
-
-.top-1\/4 {
-  top: 25%;
-}
-
-.top-20 {
-  top: 5rem;
-}
-
-.top-16 {
-  top: 4rem;
-}
-
 .z-50 {
   z-index: 50;
 }
@@ -619,16 +607,12 @@ video {
   margin-right: auto;
 }
 
-.mr-5 {
-  margin-right: 1.25rem;
+.mr-3 {
+  margin-right: 0.75rem;
 }
 
 .mt-12 {
   margin-top: 3rem;
-}
-
-.mr-3 {
-  margin-right: 0.75rem;
 }
 
 .inline-block {
@@ -651,6 +635,10 @@ video {
   height: 200vh;
 }
 
+.w-\[500px\] {
+  width: 500px;
+}
+
 .w-full {
   width: 100%;
 }
@@ -659,8 +647,32 @@ video {
   width: 80%;
 }
 
-.max-w-\[1048px\] {
-  max-width: 1048px;
+.w-\[300px\] {
+  width: 300px;
+}
+
+.w-\[100px\] {
+  width: 100px;
+}
+
+.w-\[20px\] {
+  width: 20px;
+}
+
+.w-\[25px\] {
+  width: 25px;
+}
+
+.w-\[250px\] {
+  width: 250px;
+}
+
+.w-\[200px\] {
+  width: 200px;
+}
+
+.w-\[150px\] {
+  width: 150px;
 }
 
 .translate-x-\[-50\%\] {
@@ -694,6 +706,11 @@ video {
   gap: 1.5rem;
 }
 
+.gap-x-2 {
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+}
+
 .gap-x-8 {
   -moz-column-gap: 2rem;
        column-gap: 2rem;
@@ -715,11 +732,6 @@ video {
 
 .gap-y-6 {
   row-gap: 1.5rem;
-}
-
-.gap-x-2 {
-  -moz-column-gap: 0.5rem;
-       column-gap: 0.5rem;
 }
 
 .rounded-md {
@@ -761,14 +773,14 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-red-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
+}
+
 .bg-gray-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
-}
-
-.bg-red-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
 
 .p-5 {
@@ -875,68 +887,18 @@ video {
   outline-offset: 2px;
 }
 
-.transition {
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
 .transition-all {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
 
-.duration-300 {
-  transition-duration: 300ms;
-}
-
-.ease-in-out {
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.after\:absolute::after {
-  content: var(--tw-content);
-  position: absolute;
-}
-
-.after\:right-4::after {
-  content: var(--tw-content);
-  right: 1rem;
-}
-
-.after\:font-\[boxicons\]::after {
-  content: var(--tw-content);
-  font-family: boxicons;
-}
-
-.after\:\!font-\[boxicons\]::after {
-  content: var(--tw-content);
-  font-family: boxicons !important;
-}
-
-.after\:text-lg::after {
-  content: var(--tw-content);
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.after\:text-black-mamba::after {
-  content: var(--tw-content);
-  --tw-text-opacity: 1;
-  color: rgb(21 21 21 / var(--tw-text-opacity));
-}
-
-.after\:content-\[\\eedb\]::after {
-  --tw-content: \eedb;
-  content: var(--tw-content);
-}
-
-.after\:content-\[\'\\eedb\'\]::after {
-  --tw-content: '\eedb';
-  content: var(--tw-content);
+  transition-duration: 150ms;
 }
 
 .hover\:cursor-pointer:hover {
@@ -1039,15 +1001,6 @@ video {
 
   .lg\:items-center {
     align-items: center;
-  }
-
-  .lg\:gap-6 {
-    gap: 1.5rem;
-  }
-
-  .lg\:gap-x-6 {
-    -moz-column-gap: 1.5rem;
-         column-gap: 1.5rem;
   }
 
   .lg\:bg-black-mamba {
