@@ -12,6 +12,7 @@ module.exports = {
             ...colors,
             "black-mamba": "#151515",
             "grey-blind": "#FAFAFA",
+            "blue-core": "#697586",
         },
     },
     plugins: [],
