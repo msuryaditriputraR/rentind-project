@@ -1324,12 +1324,32 @@ video {
     margin-bottom: 2rem;
   }
 
+  .sm\:h-10 {
+    height: 2.5rem;
+  }
+
   .sm\:max-h-96 {
     max-height: 24rem;
   }
 
   .sm\:w-\[55ch\] {
     width: 55ch;
+  }
+
+  .sm\:w-10 {
+    width: 2.5rem;
+  }
+
+  .sm\:w-8 {
+    width: 2rem;
+  }
+
+  .sm\:w-6 {
+    width: 1.5rem;
+  }
+
+  .sm\:w-5 {
+    width: 1.25rem;
   }
 
   .sm\:grid-cols-2 {
