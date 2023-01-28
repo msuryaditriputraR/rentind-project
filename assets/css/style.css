@@ -622,6 +622,10 @@ video {
   z-index: 50;
 }
 
+.row-span-2 {
+  grid-row: span 2 / span 2;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -1374,6 +1378,32 @@ video {
     top: -13rem;
   }
 
+  .lg\:row-span-2 {
+    grid-row: span 2 / span 2;
+  }
+
+  .lg\:row-span-1 {
+    grid-row: span 1 / span 1;
+  }
+
+  .lg\:row-span-4 {
+    grid-row: span 4 / span 4;
+  }
+
+  .lg\:row-span-3 {
+    grid-row: span 3 / span 3;
+  }
+
+  .lg\:my-5 {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .lg\:my-20 {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
   .lg\:mt-16 {
     margin-top: 4rem;
   }
@@ -1386,12 +1416,28 @@ video {
     margin-top: 10rem;
   }
 
+  .lg\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
+  .lg\:mt-20 {
+    margin-top: 5rem;
+  }
+
   .lg\:block {
     display: block;
   }
 
+  .lg\:inline-block {
+    display: inline-block;
+  }
+
   .lg\:flex {
     display: flex;
+  }
+
+  .lg\:hidden {
+    display: none;
   }
 
   .lg\:h-\[90vh\] {
@@ -1422,6 +1468,14 @@ video {
     height: 450px;
   }
 
+  .lg\:h-\[300px\] {
+    height: 300px;
+  }
+
+  .lg\:h-full {
+    height: 100%;
+  }
+
   .lg\:w-auto {
     width: auto;
   }
@@ -1430,8 +1484,48 @@ video {
     width: 100%;
   }
 
+  .lg\:w-\[450px\] {
+    width: 450px;
+  }
+
+  .lg\:grid-flow-row {
+    grid-auto-flow: row;
+  }
+
+  .lg\:grid-flow-col {
+    grid-auto-flow: column;
+  }
+
+  .lg\:auto-rows-min {
+    grid-auto-rows: min-content;
+  }
+
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:grid-rows-3 {
+    grid-template-rows: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:grid-rows-2 {
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+  }
+
   .lg\:flex-row {
     flex-direction: row;
+  }
+
+  .lg\:place-items-start {
+    place-items: start;
+  }
+
+  .lg\:place-items-baseline {
+    place-items: baseline;
+  }
+
+  .lg\:place-items-stretch {
+    place-items: stretch;
   }
 
   .lg\:items-start {
@@ -1448,6 +1542,10 @@ video {
 
   .lg\:justify-between {
     justify-content: space-between;
+  }
+
+  .lg\:gap-8 {
+    gap: 2rem;
   }
 
   .lg\:bg-black-mamba {
@@ -1475,6 +1573,16 @@ video {
     padding-right: 5rem;
   }
 
+  .lg\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .lg\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
   .lg\:text-left {
     text-align: left;
   }
@@ -1486,6 +1594,16 @@ video {
   .lg\:text-5xl {
     font-size: 3rem;
     line-height: 1;
+  }
+
+  .lg\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .lg\:leading-\[1\.35\] {

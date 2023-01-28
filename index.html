@@ -111,7 +111,7 @@
         <!-- POPULAR -->
         <section class="container">
             <div class="flex flex-col items-center px-5 py-10 lg:px-16 lg:flex-row lg:justify-between">
-                <h2 class="text-xl font-semibold mb-3">Most Popular Apartements</h2>
+                <h2 class="text-xl font-semibold mb-3 lg:text-2xl">Most Popular Apartements</h2>
                 <div>
                     <div class="relative inline-flex items-center gap-x-2 mr-3 w-[135px] shadow-xl p-2 rounded-lg">
                         <i class='bx bxs-map-alt absolute l-2'></i>
@@ -229,31 +229,57 @@
         </section>
 
         <!-- Offer -->
-        <section class="container py-8 px-5">
-            <p class="text-sm mb-2 capitalize">Exclusive offer from us for you <br>
+        <section class="container py-8 px-5 lg:text-center lg:text-white lg:bg-black-mamba lg:py-16">
+            <p class="text-sm mb-2 capitalize lg:text-lg">Exclusive offer from us for you <br class="lg:hidden">
                 to have your dream home
             </p>
-            <h2 class="text-xl font-bold capitalize">
-                We provide the best experience <br>
+            <h2 class="text-xl font-bold capitalize lg:text-2xl">
+                We provide the best experience <br class="lg:hidden">
                 for your residence
             </h2>
-            <div class="grid grid-cols-1 place-items-center gap-6 my-10">
-                <div class="relative">
-                    <img src="assets/img/offers/offer1.png" alt="" class="rounded-xl shadow-md">
+            <div
+                class="grid grid-cols-1 place-items-center gap-6 my-10 lg:grid-cols-3 lg:text-left lg:grid-row-3 lg:gap-8 lg:grid-flow-col lg:place-items-start lg:px-10 lg:my-20">
+                <div class="relative lg:row-span-3">
+                    <img src="assets/img/offers/offer1.png" alt="" class="rounded-xl shadow-md lg:hidden">
+                    <img src="assets/img/offers/offer1-1.png" alt=""
+                        class="rounded-xl shadow-md hidden lg:inline-block">
                     <div class="absolute bottom-6 left-4">
                         <p class="text-white font-semibold">Jakarta</p>
                         <p class="text-[#C5C5C5] font-medium text-sm">560+ Total unit</p>
                     </div>
                 </div>
-                <div class="relative">
-                    <img src="assets/img/offers/offer2.png" alt="" class="rounded-xl shadow-md">
+                <div class="relative lg:row-span-2">
+                    <img src="assets/img/offers/offer2.png" alt="" class="rounded-xl shadow-md lg:hidden">
+                    <img src="assets/img/offers/offer2-1.png" alt=""
+                        class="rounded-xl shadow-md hidden lg:inline-block">
                     <div class="absolute bottom-6 left-4">
                         <p class="text-white font-semibold">Bandung</p>
                         <p class="text-[#C5C5C5] font-medium text-sm">120+ Total unit</p>
                     </div>
                 </div>
+                <div class="relative hidden lg:inline-block lg:row-span-1">
+                    <img src="assets/img/offers/offer3.png" alt="" class="rounded-xl shadow-md">
+                    <div class="absolute bottom-6 left-4">
+                        <p class="text-white font-semibold">Surabaya</p>
+                        <p class="text-[#C5C5C5] font-medium text-sm">90+ Total unit</p>
+                    </div>
+                </div>
+                <div class="relative hidden lg:inline-block lg:row-span-1">
+                    <img src="assets/img/offers/offer4.png" alt="" class="rounded-xl shadow-md">
+                    <div class="absolute bottom-6 left-4">
+                        <p class="text-white font-semibold">Medan</p>
+                        <p class="text-[#C5C5C5] font-medium text-sm">25+ Total unit</p>
+                    </div>
+                </div>
+                <div class="relative hidden lg:inline-block lg:row-span-2">
+                    <img src="assets/img/offers/offer5.png" alt="" class="rounded-xl shadow-md">
+                    <div class="absolute bottom-6 left-4">
+                        <p class="text-white font-semibold">Bali Island</p>
+                        <p class="text-[#C5C5C5] font-medium text-sm">150+ Total unit</p>
+                    </div>
+                </div>
             </div>
-            <a href="#" class="bg-black-mamba text-white rounded-lg py-2 px-3 w-fit block mx-auto">Show
+            <a href="#" class="bg-black-mamba text-white rounded-lg py-2 px-3 w-fit block mx-auto lg:hidden">Show
                 More</a>
         </section>
 
