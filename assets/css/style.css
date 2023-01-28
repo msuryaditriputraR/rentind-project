@@ -1912,6 +1912,16 @@ video {
     padding-bottom: 5rem;
   }
 
+  .lg\:py-28 {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+
+  .lg\:py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
   .lg\:pb-2 {
     padding-bottom: 0.5rem;
   }
