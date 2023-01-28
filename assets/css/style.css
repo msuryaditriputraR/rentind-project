@@ -606,26 +606,6 @@ video {
   left: -7.85%;
 }
 
-.bottom-0 {
-  bottom: 0px;
-}
-
-.-bottom-3 {
-  bottom: -0.75rem;
-}
-
-.-bottom-5 {
-  bottom: -1.25rem;
-}
-
-.-bottom-1\/4 {
-  bottom: -25%;
-}
-
-.bottom-1\/4 {
-  bottom: 25%;
-}
-
 .bottom-6 {
   bottom: 1.5rem;
 }
@@ -651,21 +631,6 @@ video {
 .my-1 {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
-}
-
-.my-6 {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
-.my-8 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-.my-12 {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
 }
 
 .my-10 {
@@ -743,10 +708,6 @@ video {
 
 .w-1 {
   width: 0.25rem;
-}
-
-.w-4 {
-  width: 1rem;
 }
 
 .w-fit {
@@ -1012,11 +973,6 @@ video {
   line-height: 1.5rem;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .font-medium {
   font-weight: 500;
 }
@@ -1104,54 +1060,9 @@ video {
   position: absolute;
 }
 
-.after\:bottom-0::after {
-  content: var(--tw-content);
-  bottom: 0px;
-}
-
-.after\:-bottom-10::after {
-  content: var(--tw-content);
-  bottom: -2.5rem;
-}
-
 .after\:-bottom-5::after {
   content: var(--tw-content);
   bottom: -1.25rem;
-}
-
-.after\:-bottom-2::after {
-  content: var(--tw-content);
-  bottom: -0.5rem;
-}
-
-.after\:-bottom-3::after {
-  content: var(--tw-content);
-  bottom: -0.75rem;
-}
-
-.after\:-bottom-4::after {
-  content: var(--tw-content);
-  bottom: -1rem;
-}
-
-.after\:left-0::after {
-  content: var(--tw-content);
-  left: 0px;
-}
-
-.after\:-bottom-6::after {
-  content: var(--tw-content);
-  bottom: -1.5rem;
-}
-
-.after\:-left-10::after {
-  content: var(--tw-content);
-  left: -2.5rem;
-}
-
-.after\:-left-5::after {
-  content: var(--tw-content);
-  left: -1.25rem;
 }
 
 .after\:-left-6::after {
@@ -1159,39 +1070,9 @@ video {
   left: -1.5rem;
 }
 
-.after\:-z-10::after {
-  content: var(--tw-content);
-  z-index: -10;
-}
-
-.after\:z-\[-1\]::after {
-  content: var(--tw-content);
-  z-index: -1;
-}
-
-.after\:h-4::after {
-  content: var(--tw-content);
-  height: 1rem;
-}
-
-.after\:h-6::after {
-  content: var(--tw-content);
-  height: 1.5rem;
-}
-
 .after\:h-5::after {
   content: var(--tw-content);
   height: 1.25rem;
-}
-
-.after\:w-4::after {
-  content: var(--tw-content);
-  width: 1rem;
-}
-
-.after\:w-6::after {
-  content: var(--tw-content);
-  width: 1.5rem;
 }
 
 .after\:w-5::after {
@@ -1199,64 +1080,9 @@ video {
   width: 1.25rem;
 }
 
-.after\:border::after {
-  content: var(--tw-content);
-  border-width: 1px;
-}
-
-.after\:border-\[80px\]::after {
-  content: var(--tw-content);
-  border-width: 80px;
-}
-
-.after\:border-\[25px\]::after {
-  content: var(--tw-content);
-  border-width: 25px;
-}
-
-.after\:border-\[15px\]::after {
-  content: var(--tw-content);
-  border-width: 15px;
-}
-
-.after\:border-\[20px\]::after {
-  content: var(--tw-content);
-  border-width: 20px;
-}
-
-.after\:border-\[22\.5px\]::after {
-  content: var(--tw-content);
-  border-width: 22.5px;
-}
-
-.after\:border-\[23px\]::after {
-  content: var(--tw-content);
-  border-width: 23px;
-}
-
 .after\:border-\[22px\]::after {
   content: var(--tw-content);
   border-width: 22px;
-}
-
-.after\:border-b-4::after {
-  content: var(--tw-content);
-  border-bottom-width: 4px;
-}
-
-.after\:border-b-\[80px\]::after {
-  content: var(--tw-content);
-  border-bottom-width: 80px;
-}
-
-.after\:border-l-\[80px\]::after {
-  content: var(--tw-content);
-  border-left-width: 80px;
-}
-
-.after\:border-r-\[80px\]::after {
-  content: var(--tw-content);
-  border-right-width: 80px;
 }
 
 .after\:border-t-0::after {
@@ -1274,37 +1100,10 @@ video {
   border-color: transparent;
 }
 
-.after\:border-t-transparent::after {
-  content: var(--tw-content);
-  border-top-color: transparent;
-}
-
-.after\:border-b-transparent::after {
-  content: var(--tw-content);
-  border-bottom-color: transparent;
-}
-
-.after\:border-l-transparent::after {
-  content: var(--tw-content);
-  border-left-color: transparent;
-}
-
 .after\:border-r-black-mamba::after {
   content: var(--tw-content);
   --tw-border-opacity: 1;
   border-right-color: rgb(21 21 21 / var(--tw-border-opacity));
-}
-
-.after\:bg-black-mamba::after {
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(21 21 21 / var(--tw-bg-opacity));
-}
-
-.after\:bg-red-300::after {
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(252 165 165 / var(--tw-bg-opacity));
 }
 
 .after\:bg-transparent::after {
