@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+
+  /* CHANGE COLOR SCROLLBAR */
+
+  /* CHROME, SAFARI, EDGE */
+  ::-webkit-scrollbar {
+    @apply w-[.8rem];
+    @apply bg-slate-200;
+    @apply rounded-lg;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply rounded-lg;
+    @apply bg-black-mamba;
+  }
+}
+
 @layer utilities {
   .zoom-1 {
     zoom: 1;
