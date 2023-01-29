@@ -741,6 +741,18 @@ video {
   width: 3rem;
 }
 
+.w-\[35ch\] {
+  width: 35ch;
+}
+
+.w-\[45ch\] {
+  width: 45ch;
+}
+
+.max-w-\[45ch\] {
+  max-width: 45ch;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -1087,6 +1099,35 @@ video {
   line-height: 1rem;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-\[1\.05rem\] {
+  font-size: 1.05rem;
+}
+
+.text-\[1\.125rem\] {
+  font-size: 1.125rem;
+}
+
+.text-\[1\.1rem\] {
+  font-size: 1.1rem;
+}
+
+.text-\[1\.085rem\] {
+  font-size: 1.085rem;
+}
+
+.text-\[1\.025rem\] {
+  font-size: 1.025rem;
+}
+
+.text-\[\.925rem\] {
+  font-size: .925rem;
+}
+
 .font-medium {
   font-weight: 500;
 }
@@ -1297,6 +1338,14 @@ video {
     margin-bottom: 2rem;
   }
 
+  .sm\:block {
+    display: block;
+  }
+
+  .sm\:inline-block {
+    display: inline-block;
+  }
+
   .sm\:max-h-96 {
     max-height: 24rem;
   }
@@ -1308,6 +1357,10 @@ video {
   .sm\:w-fit {
     width: -moz-fit-content;
     width: fit-content;
+  }
+
+  .sm\:w-\[45ch\] {
+    width: 45ch;
   }
 
   .sm\:grid-cols-2 {
@@ -1329,6 +1382,31 @@ video {
 
   .sm\:text-center {
     text-align: center;
+  }
+
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .sm\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .sm\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .sm\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .sm\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
 
